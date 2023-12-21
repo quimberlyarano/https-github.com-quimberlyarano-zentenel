@@ -1,0 +1,25 @@
+/* This is a layout and style for the calculator */
+.calculator {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #6859abd3;
+    border-radius: 5px;
+    text-align: center;
+}
+ 
+input[type="text"] {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.keys button {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border: none;
+    border-radius: 3px;
+    background-color: #086076;
+    cursor: pointer;
+}

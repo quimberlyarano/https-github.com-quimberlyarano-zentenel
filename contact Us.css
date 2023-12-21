@@ -1,0 +1,53 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Footer Styles */
+footer#contact-us {
+    background-color: #0c9dba;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.contact-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-container h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #0e35c2;
+}
+
+.contact-container p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #0c445c;
+}
+
+.contact-links {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-links li {
+    margin-bottom: 15px;
+}
+
+.contact-links a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #0b4c6e;
+    background-color: #0067ac;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.contact-links a:hover {
+    background-color: #2980b9;
+}
